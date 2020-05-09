@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>ExamenPizza</title>
+
+	<script src="libraries/p5.js"></script>
+	<script src="libraries/p5.dom.js"></script>
+	<script src="libraries/p5.sound.js"></script>
+	<script src="sketch.js"></script>
+
+	<style>
+		body 
+
+		{
+			margin:0;
+			padding:0;
+			overflow: hidden;
+			background-color: #51728B;
+		}
+		canvas {
+			margin:auto;
+
+		}
+
+		.texto{
+			text-align: center;
+			font-family: Zapf-Chancery;
+		}
+
+		.texto button{
+			background-color: #434570;
+			color: black;
+			font-family: Zapf-Chancery;
+			border: 35px;
+			height: 35px;
+			font-size: 18px;
+			border-radius: 22px;
+		}
+
+		.div-button
+
+		{
+			margin-top: 12px;
+		}
+
+		.title
+
+		{
+
+			display: flex;
+
+			justify-content: space-around;
+
+			font-family: Zapf-Chancery;
+		}
+
+		
+	</style>
+</head>
+<body>
+
+	<div class="texto">
+		<h1>¿Cuantas rebanadas quieres?</h1>
+		
+		<h2>Ingresa Cuantas</h2>
+
+		<input type="number" id="input-number">
+
+		<div class="div-button">
+
+			<button onclick="partirPizza()">Partir Rebanadas</button>
+
+		</div>
+	</div>
+
+
+	<div class="title">
+		<h2>ALGORITMO EPP</h2>
+		<h2>ALGORITM BRESENHAM</h2>
+		<h2>ALGORITM DDA</h2>
+	</div>
+</body>
+</html>
